@@ -1,18 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechBytesOnline - Indie Software Development Portfolio</title>
-    <meta name="description" content="Discover apps and software solutions by TechBytesOnline, a small indie company focused on creating unique, high-quality digital experiences." />
-    <meta property="og:title" content="TechBytesOnline - Indie Software Development Portfolio" />
-    <meta property="og:description" content="Discover apps and software solutions by TechBytesOnline, a small indie company focused on creating unique, high-quality digital experiences." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="min-h-screen bg-white text-neutral-900">
+        <section class="py-24 px-6 sm:px-10 md:px-20 text-center border-b border-slate-100">
+            <h1 id="company-name" class="text-5xl sm:text-7xl font-bold tracking-tighter text-slate-950 mb-6"></h1>
+            <p id="tagline" class="text-lg sm:text-xl text-slate-600 max-w-xl mx-auto mb-10 leading-relaxed"></p>
+            <div id="developers" class="inline-block px-4 py-1 rounded-full bg-slate-100 text-slate-500 text-sm font-medium"></div>
+        </section>
 
+        <section class="py-24 px-6 sm:px-10 md:px-20 bg-slate-50" id="portfolio">
+            <h2 class="text-4xl font-bold text-slate-950 mb-16 text-center tracking-tight">Our Projects</h2>
+            <div id="portfolio-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <!-- Apps will be rendered here -->
+            </div>
+        </section>
+        
+        <footer class="py-10 px-6 text-center text-neutral-500 text-sm">
+          <p>&copy; 2026 TechBytesOnline. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
