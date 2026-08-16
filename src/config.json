@@ -1,0 +1,16 @@
+{
+  "companyName": "TechBytesOnline",
+  "tagline": "Small indie studio building unique, quality digital experiences for everyone.",
+  "developers": ["Sabin Khanal", "Anup Shrestha"],
+  "apps": [
+    { "title": "Engineering License Prep: NEC", "description": "Mock tests and syllabus tracking for engineering students.", "link": "#" },
+    { "title": "Smart Tools: Metal Detector", "description": "Handy tool for detecting metals.", "link": "#" },
+    { "title": "Instant Retro Photo Print", "description": "Add retro vibes to your photos.", "link": "#" },
+    { "title": "Asmita Wardrobe – Fashion App", "description": "Discover your perfect style.", "link": "#" },
+    { "title": "Negative Photo Scanner", "description": "Easily scan your old negatives.", "link": "#" },
+    { "title": "NutriFlag AI – Food Checker", "description": "Check what's inside your food.", "link": "#" },
+    { "title": "Mero Nepali Barnamala for Kids", "description": "Educational app for kids to learn Nepali.", "link": "#" },
+    { "title": "PillPulse: Pill & Med Reminder", "description": "Never miss a dose.", "link": "#" },
+    { "title": "FRIENDS SERIES TRIVIA GAMES", "description": "Test your friends knowledge.", "link": "#" }
+  ]
+}

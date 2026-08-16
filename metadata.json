@@ -1,0 +1,6 @@
+{
+  "name": "TechBytesOnline Portfolio",
+  "description": "Portfolio website for indie developer company TechBytesOnline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
